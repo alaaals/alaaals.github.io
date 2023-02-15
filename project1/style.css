@@ -40,8 +40,25 @@ body{
     position: absolute;
     margin-left: 50vw;
     transform: translate(-50%);  
-   
-}
+
+
+ }
+
+
+ #adopt{
+   border-style: solid;
+   border-radius: 20px;
+   border-width: -15px;
+   margin-right: 10px; 
+   margin-left: 1065px;
+   margin-top: -440px;
+   background-color: grey;
+   border-color: grey;
+   color:white; 
+   padding-bottom: 80px;
+
+} 
+
 
 .donate{
     border-style: solid;

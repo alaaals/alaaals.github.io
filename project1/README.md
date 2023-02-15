@@ -1,4 +1,4 @@
-## License
+## My Info
 
 - Name: Alaa Al Shaba
 - Course: Communications Lab

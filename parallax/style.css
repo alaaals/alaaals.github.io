@@ -1,0 +1,14 @@
+.block{
+	background:pink;
+	width: 1000px;
+	height:700px;
+  	border: 15px;
+  	padding: 50px;
+    margin-top: 50px;
+  	margin-left:10%;
+
+}
+
+body{
+	background-color: lightblue;
+}

@@ -1,0 +1,164 @@
+   body{
+     background-color: rgb(70, 33, 33); 
+    margin:0;
+    padding:0;
+    background-image: url("pages.png");
+    background-repeat: repeat-y;
+    background-size:cover;
+    font-family: 'EB Garamond', serif;
+
+   }
+
+   .book {
+    width: 80%;
+    margin: 0 auto;
+    background-color:#fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .page {
+    display: none;
+    height: 80vh;
+  }
+  
+  .page.current {
+    display: block;
+  }
+  
+.prev-btn {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+  }
+
+  .next-btn{
+
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+
+
+  }
+
+  .next-btn[disabled], .prev-btn[disabled] {
+    opacity: .5;
+    cursor: default;
+  }
+  
+  .page-1 {
+	
+	box-sizing: border-box;
+	padding: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	transition: transform 1s;
+	transform-style: preserve-3d;
+    margin: auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 5px;
+    font-family: 'EB Garamond', serif;
+}
+
+.page {
+	
+	box-sizing: border-box;
+	padding: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	transition: transform 1s;
+	transform-style: preserve-3d;
+    margin: auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 5px;
+    font-family: 'EB Garamond', serif;
+}
+
+.page-2 ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-2 li {
+    margin-bottom: 10px;
+}
+
+.page-2 a {
+    color: blue;
+    text-decoration: none;
+    border-bottom: 1px solid blue;
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+.page-2 a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.page button{
+    color: brown;
+    text-decoration: none;
+    border-bottom: 1px solid brown;
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+
+}
+
+.page button:hover{
+    background-color: brown;
+    color: white;
+
+}
+
+  .page-1 {
+    z-index: 2;
+  }
+  
+  .page-2 {
+    z-index: 1;
+  }
+  
+  .current {
+    z-index: 3;
+  }
+  
+  .book.turning-next {
+    background-image: url("pages2.png");
+  }
+  
+  .book.turning-prev {
+    background-image: url("pages.png");
+  }
+  

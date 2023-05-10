@@ -2,7 +2,8 @@
      background-color: rgb(70, 33, 33); 
     margin:0;
     padding:0;
-    background-image: url("pages.png");
+    /* background-image: url("pages.png"); */
+    background-image: url("book.jpeg");
     background-repeat: repeat-y;
     background-size:cover;
     font-family: 'EB Garamond', serif;

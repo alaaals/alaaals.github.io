@@ -27,6 +27,15 @@ $(document).ready(function() {
       }
     });
 
+    $(".chapter-link").on("click", function(e) {
+                e.preventDefault();
+                var pageIndex = $(this).data("page");
+                showPage(pageIndex);
+                currentPage = pageIndex;
+                $(".prev-btn").prop("disabled", pageIndex == 1);
+                $(".next-btn").prop("disabled", pageIndex == numPages);
+              });
+
 
 
 });
@@ -50,5 +59,5 @@ $(document).ready(function() {
       $(".prev-btn").prop("disabled", false);
     }
   }
-  
+
   AOS.init()
